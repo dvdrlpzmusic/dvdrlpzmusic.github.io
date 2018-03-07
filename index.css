@@ -2,8 +2,6 @@ body{
 	background-image: url("img/david_drums3.jpg");
 	background-size: cover; /* sizes image to size*/
 	background-repeat: no-repeat;
-	height: 100vh;
-    
 }
 .box{
     position: absolute;
@@ -124,15 +122,15 @@ p.blocktext {
 
 .three {
     width: 100vw;
-    height: 175vh;
+    height: 125vh;
     background-image: url("img/david_drums3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .box2 {
-    position: relative;
-    height: 175vh;
+    position: absolute;
+    height: 125vh;
     width: 100vw;
     background-color: black;
     opacity: 0.6;
@@ -145,20 +143,22 @@ p.blocktext {
     text-shadow: 2px 2px black;
 }
 .bioImage {
-    height: 350px;
-    width: 560px;
+    height: 40vh;
+    width: 400px;
     position: relative;
     margin: auto;
     top: 12.5%;
 }
 .about {
     position: relative;
+    display: block;
     top: 15%;
-    height: 450px;
-    width: 700px;
-    margin: auto;
+    height: 80vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
     word-wrap: break-word;
-    font-size: 17px;
+    font-size: 16px;
     text-align: center;
     text-shadow: 1px 1px black;
 }
