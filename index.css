@@ -7,15 +7,15 @@ body{
 }
 .box{
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     top: 0%;
     background-color: black;
     opacity: 0.5;
 }
 nav {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     height: 50px;
     background-color: rgba(0,0,0,.5);
     z-index: 99;
@@ -28,14 +28,15 @@ nav a {
     line-height: 50px;
 }
 .section {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .one {
     background-image: url(img/David%20Lopez.jpg);
+    width: 100vw;
     height: 100vh;
 }
 .name {
@@ -67,7 +68,7 @@ p.blocktext {
 }
 
 .two {
-    height: 300%;
+    height: 300vh;
     background-image: url(img/DavidStageDrums.jpg);
 }
 
@@ -82,17 +83,18 @@ p.blocktext {
 .box3 {
     position: relative;
     top: 5%;
-    height: 27%;
-    width: 100%;
+    height: 60vh;
+    width: 100vw;
     background: rgba(0,0,0,0.75);
 }
 .OptListProj {
     position: relative;
     top: 7%;
-    width: 700px;
+    width: 60vw;
+    height: 26vh;
     margin: auto;
     word-wrap: break-word;
-    font-size: 18px;
+    font-size: 2.3vh;
     text-align: center;
     text-shadow: 1px 1px black;
 }
@@ -103,14 +105,14 @@ p.blocktext {
     margin-top: 12%;
 }
 .videoOne {
-    height: 315px;
-    width: 560px;
+    height: 60vh;
+    width: 70vw;
     margin: auto;
     margin-top: 5%;
 }
 .videoTwo {
-    height: 315px;
-    width: 560px;
+    height: 60vh;
+    width: 70vw;
     margin: auto;
     margin-top: 5%;
 }
@@ -121,14 +123,17 @@ p.blocktext {
 }
 
 .three {
-    height: 175%;
+    width: 100vw;
+    height: 175vh;
     background-image: url("img/david_drums3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .box2 {
-    position: absolute;
-    height: 175%;
-    width: 100%;
-    top: 400%;
+    position: relative;
+    height: 175vh;
+    width: 100vw;
     background-color: black;
     opacity: 0.6;
 }
@@ -158,7 +163,7 @@ p.blocktext {
     text-shadow: 1px 1px black;
 }
 .four {
-    height: 40%;
+    height: 40vh;
     background-image: url("img/cymbal.jpeg");
     background-size: cover;
 }
