@@ -1,0 +1,170 @@
+body{
+	background-image: url("img/david_drums3.jpg");
+	background-size: cover; /* sizes image to size*/
+	background-repeat: no-repeat;
+	height: 100vh;
+    
+}
+.box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    background-color: black;
+    opacity: 0.5;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    line-height: 50px;
+}
+.section {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.one {
+    background-image: url(img/David%20Lopez.jpg);
+    height: 100vh;
+}
+.name {
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 8vw;
+	font-family: 'Julius Sans One', sans-serif;
+	color: white;
+	text-align: center;
+}
+p {
+	text-align: center;
+	top: 35%;
+	font-size: 2vw;
+	font-family: 'Julius Sans One', sans-serif;
+
+	color: white;
+}
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+.centertext {
+    position: absolute;
+    right: 0;
+    top: 35vh;
+    left: 0;
+}
+
+.two {
+    height: 300%;
+    background-image: url(img/DavidStageDrums.jpg);
+}
+
+.music {
+    position: relative;
+    top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+}
+.box3 {
+    position: relative;
+    top: 5%;
+    height: 27%;
+    width: 100%;
+    background: rgba(0,0,0,0.75);
+}
+.OptListProj {
+    position: relative;
+    top: 7%;
+    width: 700px;
+    margin: auto;
+    word-wrap: break-word;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+.musicPlayer {
+    height: 470px;
+    width: 350px;
+    margin: auto;
+    margin-top: 12%;
+}
+.videoOne {
+    height: 315px;
+    width: 560px;
+    margin: auto;
+    margin-top: 5%;
+}
+.videoTwo {
+    height: 315px;
+    width: 560px;
+    margin: auto;
+    margin-top: 5%;
+}
+.musicPlayer2 {
+    position: absolute;
+    top: 318%;
+    left: 35%;
+}
+
+.three {
+    height: 175%;
+    background-image: url("img/david_drums3.jpg");
+}
+.box2 {
+    position: absolute;
+    height: 175%;
+    width: 100%;
+    top: 400%;
+    background-color: black;
+    opacity: 0.6;
+}
+.abouttitle {
+    position: relative;
+    margin: auto;
+    top: 10%;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+}
+.bioImage {
+    height: 350px;
+    width: 560px;
+    position: relative;
+    margin: auto;
+    top: 12.5%;
+}
+.about {
+    position: relative;
+    top: 15%;
+    height: 450px;
+    width: 700px;
+    margin: auto;
+    word-wrap: break-word;
+    font-size: 17px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+.four {
+    height: 40%;
+    background-image: url("img/cymbal.jpeg");
+    background-size: cover;
+}
+.icons {
+    height: 84px;
+    width: 335px;
+    margin: auto;
+    margin-top: 5%;
+}
